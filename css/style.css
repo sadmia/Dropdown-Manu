@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	font-family: arial;
+	background-color: #33ceff;
+}
+
+.contant-section {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	/*height: 370px;*/
+	height: 105px;
+	transition: 0.5s;
+	overflow: hidden;
+	padding: 15px 20px;
+	background-color: #fff; 
+	box-sizing: border-box;
+	box-shadow: 0px 10px 20px #3335;
+}
+.images-div {
+	width: 70px;
+	height: 75px;
+	background-color: #333;
+	border-radius: 50%;
+	overflow: hidden; 
+}
+.images-div img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer; 
+	object-fit: cover;
+}
+
+.contant-section h3 {
+	font-size: 20px;
+	color: #000;
+	margin-left: 85px;
+	margin-top: -55px;
+}
+.contant-section h3 span {
+	cursor: pointer;
+}
+.contant-section p {
+	font-size: 15px;
+	color: #3337;
+	margin-left: 85px;
+	margin-top: 5px;
+	padding-bottom: 15px;
+}
+
+.Dropdown-btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 35px;
+	height: 35px;
+	background-color: #3399ff; 
+	cursor: pointer;
+}
+.Dropdown-btn i {
+	font-size: 22px;
+	padding: 9px 9px;
+	color: #fff;
+}
+
+.click-content-div {
+	width: 100%;
+	transition: 1s;
+}
+.click-content-div ul {
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.click-content-div ul li {
+	list-style: none;
+	padding: 10px 10px;
+	color: #333333c7;
+	font-size: 16px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.click-content-div ul li i {
+	margin-right: 5px;
+	font-size: 18px;
+}
+.click-content-div ul li:hover {
+	color: #3399ff;
+}
+
+.Dropdown-btn .top-icon {
+	display: none;
+}
